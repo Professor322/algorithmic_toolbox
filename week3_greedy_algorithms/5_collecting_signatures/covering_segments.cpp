@@ -2,29 +2,45 @@
 #include <iostream>
 #include <climits>
 #include <vector>
+#include <list>
+#include <algorithm>
 
 using std::vector;
+using std::list;
 
 struct Segment {
   int start, end;
 };
 
-vector<int> optimal_points(vector<Segment> &segments) {
-  vector<int> points;
-  //write your code here
-  for (size_t i = 0; i < segments.size(); ++i) {
-    points.push_back(segments[i].start);
-    points.push_back(segments[i].end);
+vector<int> optimal_points(list<Segment> &segments) {
+
+	vector<int> points;
+
+  segments.sort(
+  [](const Segment& lhs, const Segment& rhs){
+  	return lhs.end < rhs.end;
+  });
+
+  while (!segments.empty()) {
+ 	int point = segments.front().end;
+ 	segments.pop_front();
+ 	points.push_back(point);
+ 	segments.remove_if([point](const Segment& elem) {
+ 		return point >= elem.start && point <= elem.end;
+ 	});
   }
+
   return points;
 }
 
 int main() {
   int n;
   std::cin >> n;
-  vector<Segment> segments(n);
-  for (size_t i = 0; i < segments.size(); ++i) {
-    std::cin >> segments[i].start >> segments[i].end;
+  list<Segment> segments;
+  for (size_t i = 0; i < n; ++i) {
+  	int start, end;
+  	std::cin >> start >> end;
+  	segments.push_back({start, end});
   }
   vector<int> points = optimal_points(segments);
   std::cout << points.size() << "\n";

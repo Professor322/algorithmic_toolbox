@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/professor/Desktop/algorithmic_toolbox/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ algs/fast:
 	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/build
 .PHONY : algs/fast
 
-week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.o: week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o
+week4_divide_and_conquer/3_improving_quicksort/sorting.o: week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
 
-.PHONY : week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.o
+.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.o
 
 # target to build an object file
-week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o
-.PHONY : week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o
+week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o:
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
+.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
 
-week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.i: week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i
+week4_divide_and_conquer/3_improving_quicksort/sorting.i: week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
 
-.PHONY : week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.i
+.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.i
 
 # target to preprocess a source file
-week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i
-.PHONY : week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i
+week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i:
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
+.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
 
-week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.s: week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s
+week4_divide_and_conquer/3_improving_quicksort/sorting.s: week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
 
-.PHONY : week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.s
+.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.s
 
 # target to generate assembly for a file
-week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s
-.PHONY : week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s
+week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s:
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
+.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algs"
-	@echo "... week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.o"
-	@echo "... week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.i"
-	@echo "... week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.s"
+	@echo "... week4_divide_and_conquer/3_improving_quicksort/sorting.o"
+	@echo "... week4_divide_and_conquer/3_improving_quicksort/sorting.i"
+	@echo "... week4_divide_and_conquer/3_improving_quicksort/sorting.s"
 .PHONY : help
 
 

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/professor/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7846.88/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,27 +57,27 @@ include CMakeFiles/algs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algs.dir/flags.make
 
-CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o: ../week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o"
-	/usr/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o -c /home/professor/Desktop/algorithmic_toolbox/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp
+CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o: CMakeFiles/algs.dir/flags.make
+CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o: ../week4_divide_and_conquer/3_improving_quicksort/sorting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
+	/usr/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o -c /home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp
 
-CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i"
-	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/professor/Desktop/algorithmic_toolbox/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp > CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.i
+CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i"
+	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp > CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
 
-CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s"
-	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/professor/Desktop/algorithmic_toolbox/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp -o CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.s
+CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s"
+	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp -o CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
 
 # Object files for target algs
 algs_OBJECTS = \
-"CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o"
+"CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
 
 # External object files for target algs
 algs_EXTERNAL_OBJECTS =
 
-algs: CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o
+algs: CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
 algs: CMakeFiles/algs.dir/build.make
 algs: CMakeFiles/algs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algs"

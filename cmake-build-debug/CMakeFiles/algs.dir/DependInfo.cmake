@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/professor/Desktop/algorithmic_toolbox/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp" "/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o"
+  "/home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp" "/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

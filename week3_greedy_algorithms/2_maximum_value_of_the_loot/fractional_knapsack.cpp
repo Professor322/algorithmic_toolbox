@@ -1,12 +1,39 @@
 #include <iostream>
 #include <vector>
+#include <tuple>
+#include <algorithm>
 
 using std::vector;
+using std::pair;
+using std::cout;
 
-double get_optimal_value(int capacity, vector<int> weights, vector<int> values) {
+double get_optimal_value(int capacity, vector<int>& weights, vector<int>& values) {
   double value = 0.0;
+  vector<pair<int, int>> ratio(values.size());
+  for (int i = 0; i < ratio.size(); ++i) {
+  	ratio[i].first = values[i];
+  	ratio[i].second = weights[i];
+  }
+  sort(ratio.begin(), ratio.end(),
+  		[](const pair<int, int>& lhs, const pair<int, int>& rhs) {
+  			double value_lhs = lhs.first;
+  			double weight_lhs = lhs.second;
+  			double value_rhs = rhs.first;
+  			double weight_rhs = rhs.second;
+  			return value_lhs / weight_lhs > value_rhs / weight_rhs;
+  });
 
-  // write your code here
+  for (int i = 0; i < values.size(); ++i) {
+  	if (capacity == 0) {
+  		return value;
+  	}
+  	double a = std::min(capacity, ratio[i].second);
+  	value += a * (static_cast<double>(ratio[i].first) /
+  			static_cast<double >(ratio[i].second));
+
+  	capacity -= static_cast<int>(a);
+
+  }
 
   return value;
 }

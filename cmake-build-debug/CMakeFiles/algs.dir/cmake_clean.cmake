@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algs.dir/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp.o"
+  "CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
   "algs"
   "algs.pdb"
 )
