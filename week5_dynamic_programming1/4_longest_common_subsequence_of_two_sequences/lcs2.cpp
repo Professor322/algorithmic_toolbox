@@ -1,11 +1,25 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
 using std::vector;
 
 int lcs2(vector<int> &a, vector<int> &b) {
-  //write your code here
-  return std::min(std::min(a.size(), b.size()), c.size());
+	int n = a.size() + 1, m = b.size() + 1;
+	vector<vector<int>> dp(n, vector<int>(m, 0));
+
+	for (int i = 1; i < n; ++i) {
+		for (int j = 1; j < m; ++j) {
+			if (a[i - 1] == b[j - 1]) {
+				dp[i][j] = dp[i - 1][j - 1] + 1;
+			} else {
+				dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);
+			}
+		}
+	}
+
+
+	return dp[n - 1][m - 1];
 }
 
 int main() {

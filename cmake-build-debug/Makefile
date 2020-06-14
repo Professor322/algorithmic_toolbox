@@ -123,32 +123,32 @@ algs/fast:
 	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/build
 .PHONY : algs/fast
 
-week4_divide_and_conquer/3_improving_quicksort/sorting.o: week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
+week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.o: week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o
 
-.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.o
+.PHONY : week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.o
 
 # target to build an object file
-week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
-.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
+week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o:
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o
+.PHONY : week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o
 
-week4_divide_and_conquer/3_improving_quicksort/sorting.i: week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
+week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.i: week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i
 
-.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.i
+.PHONY : week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.i
 
 # target to preprocess a source file
-week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
-.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
+week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i:
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i
+.PHONY : week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i
 
-week4_divide_and_conquer/3_improving_quicksort/sorting.s: week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
+week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.s: week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s
 
-.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.s
+.PHONY : week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.s
 
 # target to generate assembly for a file
-week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s:
-	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
-.PHONY : week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
+week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s:
+	$(MAKE) -f CMakeFiles/algs.dir/build.make CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s
+.PHONY : week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algs"
-	@echo "... week4_divide_and_conquer/3_improving_quicksort/sorting.o"
-	@echo "... week4_divide_and_conquer/3_improving_quicksort/sorting.i"
-	@echo "... week4_divide_and_conquer/3_improving_quicksort/sorting.s"
+	@echo "... week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.o"
+	@echo "... week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.i"
+	@echo "... week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.s"
 .PHONY : help
 
 

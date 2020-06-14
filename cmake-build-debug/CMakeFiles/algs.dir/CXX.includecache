@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp
+/home/professor/Desktop/algorithmic_toolbox/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp
 iostream
 -
-vector
+cassert
 -
-cstdlib
+string
+-
+vector
 -
 tuple
 -

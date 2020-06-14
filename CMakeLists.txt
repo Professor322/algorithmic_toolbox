@@ -5,4 +5,4 @@ project(course)
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(include)
-add_executable(algs  week4_divide_and_conquer/3_improving_quicksort/sorting.cpp)
+add_executable(algs  week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp)

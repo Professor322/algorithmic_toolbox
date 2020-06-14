@@ -57,27 +57,27 @@ include CMakeFiles/algs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algs.dir/flags.make
 
-CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o: ../week4_divide_and_conquer/3_improving_quicksort/sorting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
-	/usr/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o -c /home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp
+CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o: CMakeFiles/algs.dir/flags.make
+CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o: ../week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o"
+	/usr/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o -c /home/professor/Desktop/algorithmic_toolbox/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp
 
-CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i"
-	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp > CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.i
+CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i"
+	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/professor/Desktop/algorithmic_toolbox/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp > CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.i
 
-CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s"
-	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp -o CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.s
+CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s"
+	/usr/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/professor/Desktop/algorithmic_toolbox/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp -o CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.s
 
 # Object files for target algs
 algs_OBJECTS = \
-"CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
+"CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o"
 
 # External object files for target algs
 algs_EXTERNAL_OBJECTS =
 
-algs: CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o
+algs: CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o
 algs: CMakeFiles/algs.dir/build.make
 algs: CMakeFiles/algs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algs"

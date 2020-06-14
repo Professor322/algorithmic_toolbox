@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/professor/Desktop/algorithmic_toolbox/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp" "/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
+  "/home/professor/Desktop/algorithmic_toolbox/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp" "/home/professor/Desktop/algorithmic_toolbox/cmake-build-debug/CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

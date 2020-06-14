@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algs.dir/week4_divide_and_conquer/3_improving_quicksort/sorting.cpp.o"
+  "CMakeFiles/algs.dir/week6_dynamic_programming2/3_maximum_value_of_an_arithmetic_expression/placing_parentheses.cpp.o"
   "algs"
   "algs.pdb"
 )
